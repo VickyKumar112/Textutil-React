@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+body{
+  height: 100%;
+}
+.toggleB::placeholder{
+  color: #61dafb;
+}
+.color-input{
+  display: flex;
+}
+.color-input div{
+  width: 20px;
+  height: 20px;
+  background-color: #282c34;
+  margin: 10px;
+  border-radius: 50%;
+  border: 2px solid rgb(125, 115, 234);
+}
+.alertBox{
+  margin-bottom: 0px;
+}
+.alertSpace{
+  height: 55px;
+}
+.active{
+  color: rgb(19, 184, 254)!important;
+}
